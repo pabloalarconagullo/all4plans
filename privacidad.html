@@ -8,13 +8,14 @@
 </head>
 <body>
   <!--
-    Si se añade analítica, push u otro servicio externo, hay que actualizar este
-    texto Y las fichas de privacidad de las dos tiendas.
+    Si se añade analítica u otro servicio externo, hay que actualizar este
+    texto Y las fichas de privacidad de las dos tiendas. Sentry ya está en el
+    código pero no envía nada hasta que haya DSN: al activarlo, nombrarlo aquí.
   -->
   <main>
     <div class="marca"><span>4</span><i></i></div>
     <h1>Política de privacidad</h1>
-    <p>Última actualización: 19 de octubre de 2026</p>
+    <p>Última actualización: 20 de octubre de 2026</p>
 
     <h2>Quién es responsable</h2>
     <p>Pablo Alarcón Agulló, que desarrolla All4Plans a título personal.
@@ -25,7 +26,9 @@
       <li><strong>Cuenta:</strong> tu correo electrónico y una contraseña (guardada cifrada,
         nunca la vemos), para que puedas entrar. Si entras <strong>con Google</strong>, Google nos
         pasa tu nombre, tu correo y tu foto de perfil de Google; no tenemos acceso a nada más de tu
-        cuenta de Google (ni correos, ni contactos, ni archivos).</li>
+        cuenta de Google (ni correos, ni contactos, ni archivos). Si entras <strong>con Apple</strong>
+        (iPhone), Apple nos pasa un correo, que puede ser una dirección de reenvío de Apple si lo
+        eliges así, y tu nombre la primera vez.</li>
       <li><strong>Perfil:</strong> el nombre con el que te ve el grupo, una frase opcional, el retrato
         o la foto que elijas y, si los pones tú, tu usuario de PayPal.me o Revolut y tu teléfono de
         Bizum, para que quien te deba dinero te lo pueda devolver. Esos datos sólo los ve la gente
@@ -39,6 +42,13 @@
         (1, 4 o 24 horas) y sólo con la app abierta. La ven únicamente las personas de ese plan y deja
         de verse sola al acabar el plazo. Nunca se recoge en segundo plano. La navegación en coche y
         «qué hay cerca» usan tu posición en el momento, sin guardarla.</li>
+      <li><strong>Salidas grabadas</strong> (senderismo, correr, bici, paseo), sólo si grabas una: el
+        recorrido (posiciones del GPS con su hora), la distancia, los tiempos y el desnivel, más el título
+        y la nota que pongas. Se graba sólo con la app abierta y lo ven las personas de ese plan, que
+        pueden aplaudirla. Puedes borrar las tuyas cuando quieras.</li>
+      <li><strong>Notificaciones</strong>, si las activas: un identificador de tu móvil para enviártelas
+        (gastos, votaciones, mensajes del chat, gente nueva). Puedes apagarlas en el perfil o silenciar un
+        plan.</li>
       <li><strong>Fotos de tickets y reservas en PDF</strong>: se leen en tu propio móvil para sacar el
         total, la fecha o el localizador, y no se envían a ningún sitio para leerlas.</li>
       <li><strong>Lo que apuntáis en los planes:</strong> nombre, destino y fechas del plan, gastos e
@@ -51,7 +61,8 @@
     <p>Sólo lo usamos para que la app funcione. No hay publicidad, no vendemos ni cedemos datos y la app
       no lleva herramientas de analítica ni de seguimiento.</p>
     <p>La base legal es la ejecución del servicio que pides al crear la cuenta (art. 6.1.b RGPD) y, para
-      la ubicación y las fotos, tu consentimiento, que das al activarlas y puedes retirar cuando quieras.</p>
+      la ubicación, las salidas grabadas, las fotos y las notificaciones, tu consentimiento, que das al
+      activarlas y puedes retirar cuando quieras.</p>
 
     <h2>Quién más ve tus datos</h2>
     <p>Lo que apuntas en un plan lo ven las personas que están en ese plan, y nadie más. Tu nombre lo ven
@@ -60,7 +71,10 @@
     <p>Los datos se alojan en <strong>Supabase</strong> (Supabase Inc.), en servidores de la Unión
       Europea, que actúa como encargado del tratamiento. Los correos de confirmación y de recuperación
       de la contraseña se envían a través de <strong>Gmail</strong> (Google). El acceso con Google lo
-      gestiona <strong>Google</strong>.</p>
+      gestiona <strong>Google</strong>, y el acceso con Apple, <strong>Apple</strong>. Las notificaciones
+      las envía <strong>Expo</strong> (650 Industries, Inc.) como encargado del tratamiento, a través del
+      servicio de Apple (iPhone) o de Google (Android); reciben el identificador del móvil y el texto
+      del aviso.</p>
     <p>Para algunas funciones la app pide datos a servicios externos, sin decirles quién eres:</p>
     <ul>
       <li><strong>OpenFreeMap / OpenStreetMap</strong>: dibujan el mapa (reciben la zona que se ve).</li>
@@ -83,8 +97,8 @@
     <p>Mientras tengas la cuenta. Puedes borrarla cuando quieras desde la app, en
       <em>Tu perfil → Borrar mi cuenta</em>, y se borran al momento tu cuenta y tu perfil.</p>
     <p>Para que las cuentas de los demás sigan cuadrando, en los planes compartidos se conserva tu sitio
-      con el nombre que tenías y los gastos en los que participaste, ya sin relación con tu cuenta ni tu
-      correo. Los planes en los que no queda nadie con cuenta se borran enteros.</p>
+      con el nombre que tenías, los gastos en los que participaste y las salidas que grabaste, ya sin
+      relación con tu cuenta ni tu correo (las salidas puedes borrarlas antes desde la app). Los planes en los que no queda nadie con cuenta se borran enteros.</p>
 
     <h2>Tus derechos</h2>
     <p>Puedes pedir acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos
